@@ -17,6 +17,8 @@ To start, we needed to preprocess the data in order to compile, train and evalua
 
 EIN and NAME columns were removed during the preprocessing stage as these columns added no value.
 
+### Initial Assesment
+
 We also binned APPLICATION_TYPE and categorized any unique values with less that 500 records as "Other"
 
 IS_SUCCESSFUL column was the target variable.
