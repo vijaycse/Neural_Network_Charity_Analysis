@@ -35,6 +35,14 @@ The output layer had 17 inputs (number of neurons from the second hidden layer),
 Both the first and second hidden layers were activated using RELU - Rectified Linear Unit function. The output layer was activated using the Sigmoid function.
 The target performance for the accuracy rate is greater than 75%. The model that was created only achieved an accuracy rate of 72.75%
 
+![Original Model results](https://github.com/vijaycse/Neural_Network_Charity_Analysis/blob/master/images/Original_Result.png)
+
+
+### Hdf5 files
+
+ Model weights are stored for every 5 secs and stored it here [HDF5](https://github.com/vijaycse/Neural_Network_Charity_Analysis/tree/master/HDF5)
+
+
 
 ## Results
 
@@ -60,9 +68,10 @@ The output layer had 10 inputs (number of neurons from the second hidden layer),
 Both the first and second hidden layers were activated using RELU - Rectified Linear Unit function. The output layer was activated using the Sigmoid function.
 The target performance for the accuracy rate is greater than 75%. The model that was created only achieved an accuracy rate of 73.87%
 
-while its a significant improvement from the original 72% , its not suffcienty 
-higher expected accuracy the take this model for conclusion.
+#### Conclusion : 
+     while its a significant improvement from the original 72% , its not suffcienty higher expected accuracy the take this model for conclusion.
 
+![Optimization Model1 results](https://github.com/vijaycse/Neural_Network_Charity_Analysis/blob/master/images/Optimization_1_Results.png)
 
 ### Optimization Attempt #2:
 Increased the size of the "Other" bin to reduce the categorical value of 
@@ -85,10 +94,11 @@ The output layer had 6 inputs (number of neurons from the second hidden layer), 
 Both the first and second hidden layers were activated using RELU - Rectified Linear Unit function. The output layer was activated using the Sigmoid function.
 The target performance for the accuracy rate is greater than 75%. The model that was created only achieved an accuracy rate of 73.76%
 
+#### Conclusion : 
+     while its not significant improvement from the original 73.87% , it is a good evidence that increasing the bin sizes futher is not going to help to meet the target accurancy of 75%
 
-while its not significant improvement from the original 73.87% , it is a 
-good evidence that increasing the bin sizes futher is not going to help
-to meet the target accurancy of 75%
+![Optimization Model2 results](https://github.com/vijaycse/Neural_Network_Charity_Analysis/blob/master/images/Optimization_2.png)
+
 
 ### Optimization Attempt #3:
 Kept the categorical values to under 10
@@ -112,9 +122,10 @@ The output layer had 38 inputs (number of neurons from the second hidden layer),
 Both the first and second hidden layers were activated using RELU - Rectified Linear Unit function. The output layer was activated using the Sigmoid function.
 The target performance for the accuracy rate is greater than 75%. The model that was created only achieved an accuracy rate of 73.90% or (In few attempts more, showed 74%)
 
+#### Conclusion : 
+    while it is an improvement from the original 73.87% , we did not meet the expected accuracy of 75%.
 
-while it is an improvement from the original 73.87% , we did not meet
-the expected accuracy of 75%.
+![Optimization Model3 results](https://github.com/vijaycse/Neural_Network_Charity_Analysis/blob/master/images/Optimization_3.png)
 
 ### Optimization Attempt #4:
 Increased bin sizes to reduce the categorical value of
