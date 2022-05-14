@@ -134,7 +134,7 @@ such that CLASSIFICATION and APPLICATION_TYPE unique values are under 5 each wit
 group of other-thousands, other-hunderds and other etc
   - resutling accuracy close to 72%
 
-### Other Attempt tried:
+### Other Attempts tried:
 - Tried with `tanh` instead of `relu` and also tried with 
 increasing the no of layers , neurons and no of iterations (epoch)
 did not help much to improve the accuracy.
