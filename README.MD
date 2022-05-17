@@ -134,7 +134,7 @@ Increased bin sizes to reduce the categorical value of
 and CLASSIFICATION to under 10 unique values with MORE BINS
 such that CLASSIFICATION and APPLICATION_TYPE unique values are under 5 each with 
 group of other-thousands, other-hunderds and other etc
-  - resutling accuracy close to 72%
+  - Resulting accuracy close to 72%
 
 ### Other Attempts tried:
 - Tried with `tanh` instead of `relu` and also tried with 
